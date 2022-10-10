@@ -1,4 +1,4 @@
-# <p align=center ><img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> Hactober Fest 2022<img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> </p>
+# <p align=center ><img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> Hactober Fest 2022 <img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> </p>
 <img style="height:200px;width:100%;" src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" />
 
 
@@ -56,7 +56,7 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 ## <h1 align=center><img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/>  Objective <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/></h1>
 **The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2022**
 
-<h1 align=center><img style="width:30px;hwight:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/selfie_1f933.png" />Our Contributors<img  style="width:30px;hwight:30px;"  src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/clapping-hands_1f44f.png" /></h1>
+<h1 align=center><img style="width:30px;hwight:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/selfie_1f933.png" /> Our Contributors <img  style="width:30px;hwight:30px;"  src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/clapping-hands_1f44f.png" /></h1>
 
 <h2 align=center>
 <a href="https://github.com/777ahesh/Hacktoberfest/graphs/contributors">
