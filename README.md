@@ -1,18 +1,20 @@
-# Hactoberfest 2022
-<img src="https://github.blog/wp-content/uploads/2022/10/hacktoberfestbanner.jpeg?fit=1200%2C630" />
-A beginner-friendly project to help you in open-source contribution. Made specifically for contribution in HACKTOBERFEST 2022! Hello World Programs and Algorithms! Please leave a star to support this project! 
-![](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+# <p align=center ><img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> Hactober Fest 2022<img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> </p>
+<img style="height:200px;width:100%;" src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" />
 
-# This All programs For beginner 
-Enjoy All
-Hacktoberfest has a simple and plain moto.
 
-# Beginner-Hacktoberfest
-Need Your first pr for hacktoberfest 2k21 ? come on in 
+#### A beginner-friendly project to help you in open-source contribution. Made specifically for contribution in HACKTOBERFEST 2022! 
+<p align=center style="font-style:bold;">Please leave a star <img style="width:30px;height:30px;" src="http://static.skaip.org/img/emoticons/180x180/f6fcff/star.gif" /> to support this project!
+</p>
+<p align="center">
+   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/777ahesh/Hacktoberfest">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/777ahesh/Hacktoberfest">
+   <img alt="contributors" src="https://img.shields.io/github/contributors/777ahesh/Hacktoberfest">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/777ahesh/Hacktoberfest">
+</p>
 
----
 
-# ❓ What's Hacktoberfest 2022?
+
+# <h1 align=center >❓ What's Hacktoberfest 2022? ❓</h1>
 
 Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https://www.digitalocean.com/) and [DEV](https://www.dev.to/) this year in 2022.
 
@@ -20,9 +22,9 @@ During the entire month of October 2022, all you have to do is contribute to any
 
 If you’ve never contributed to open source before, this is the perfect time to get started because Hacktoberfest provides a large list of available contribution opportunities (and yes, there are always plenty for beginners too).
 
----
 
-# 👕 Why Should I Contribute?
+
+# <h1 align=center> 👕 Why Should I Contribute? 👕</h1>
 
 Hacktoberfest has a simple and plain moto.
 
@@ -32,42 +34,32 @@ So, yes! You can win a T-Shirt and few awesome stickers to attach on your laptop
 **Wait there's more!**
 
 
----
 
-# 👍 This is Awesome! How Can I Contribute?
+# <h1 align=center> <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/raising-hands_1f64c.png"/> This is Awesome! How Can I Contribute? <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/raising-hands_1f64c.png"/></h1>
 
-It's very easy. You don't need to be an expert in coding and programming. Here are the steps you need to follow to create your -(maybe)- EXAMPLE first pull request within few minutes.
+It's very easy. You don't need to be an expert in coding and programming. Here are the steps you need to follow to create your first pull request within few minutes.
 1. **Star this repository.**
-2. **Navigate To index.html or main.css do so crazy contribution file**
-3. **Edit the file and insert the line of text in the specified location in the format as given in comment .**
-4. **Now click on Propose button.**
-5. **Create a new pull request.**
-6. **Wait for your Pull Request to be reviewed and merged!**
-7. **Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)**
-
-> You Can Upload Coded Projects In the Codes Directory 
-
-
----
-## Code Of Conduct
-**Examples of behavior that contributes to creating a positive environment :**
-- Using welcoming and inclusive language
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-- Being respectful of differing viewpoints and experiences
+2. **Fork the repository.**
+3. **Clone your forked repository to your local system.**
+4. **Raise the issue you want to work on following the issue creating guidelines.**
+5. **Wait for the maintainer to assign the issue to you.**
+6. **Navigate To index.html or main.css to do your crazy contribution to the repository**
+7. **Edit the file and insert the line of text in the specified location.**
+8. **Push your changes to your forked repository.**
+9. **Create a new pull request.**
+9. **Wait for your Pull Request to be reviewed and merged!**
+10. **Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)**
 
 
 
-**Examples of unacceptable behavior by participants include:**
-- Trolling, insulting/derogatory comments, and personal or political attacks
-- Public or private harassment
-- Publishing others' private information, such as a physical or electronic address, without explicit permission
----
 
-## 🎯Objectives
+## <h1 align=center><img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/>  Objective <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/></h1>
 **The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2022**
 
-<!-- # :handshake: Our Contributors
-<a href="https://github.com/hctnm2/Beginner-Hacktoberfest/graphs/contributors">
-<!--   <img src="https://contrib.rocks/image?repo=hctnm2/Beginner-Hacktoberfest" /> -->
-<!-- </a> --> 
+<h1 align=center><img style="width:30px;hwight:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/selfie_1f933.png" />Our Contributors<img  style="width:30px;hwight:30px;"  src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/clapping-hands_1f44f.png" /></h1>
+
+<h2 align=center>
+<a href="https://github.com/777ahesh/Hacktoberfest/graphs/contributors">
+ <img src="https://contrib.rocks/image?repo=777ahesh/Hacktoberfest" /> 
+</a> 
+</h2>
