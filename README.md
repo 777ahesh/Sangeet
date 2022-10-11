@@ -1,6 +1,7 @@
 # <p align=center ><img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> Hactober Fest 2022 <img src="http://static.skaip.org/img/emoticons/180x180/f6fcff/pumpkin.gif" style="width:50px;height:50px"/> </p>
-<img style="height:200px;width:100%;" src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" />
-
+<div align=center>
+<img style="height:300px;width:80%;" src="https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg" />
+</div>
 
 #### A beginner-friendly project to help you in open-source contribution. Made specifically for contribution in HACKTOBERFEST 2022! 
 <p align=center style="font-style:bold;">Please leave a star <img style="width:30px;height:30px;" src="http://static.skaip.org/img/emoticons/180x180/f6fcff/star.gif" /> to support this project!
