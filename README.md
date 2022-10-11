@@ -57,7 +57,14 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 ## <h1 align=center><img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/>  Objective <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/direct-hit_1f3af.png"/></h1>
 **The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2022**
 
+## <h1 align=center><img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/star-struck_1f929.png"/> About Project <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/relieved-face_1f60c.png"/></h1>
+
+
+
 <h1 align=center><img style="width:30px;hwight:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/selfie_1f933.png" /> Our Contributors <img  style="width:30px;hwight:30px;"  src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/clapping-hands_1f44f.png" /></h1>
+
+A Music Website made using html, css, bootstrap, js, jquery and mongodb.The site is just like spotify but with some different designs.
+
 
 <h2 align=center>
 <a href="https://github.com/777ahesh/Hacktoberfest/graphs/contributors">
