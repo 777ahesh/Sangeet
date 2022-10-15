@@ -7,10 +7,10 @@
 <p align=center style="font-style:bold;">Please leave a star <img style="width:30px;height:30px;" src="http://static.skaip.org/img/emoticons/180x180/f6fcff/star.gif" /> to support this project!
 </p>
 <p align="center">
-   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/777ahesh/Hacktoberfest">
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/777ahesh/Hacktoberfest">
-   <img alt="contributors" src="https://img.shields.io/github/contributors/777ahesh/Hacktoberfest">
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/777ahesh/Hacktoberfest">
+   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/777ahesh/Sangeet">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/777ahesh/Sangeet">
+   <img alt="contributors" src="https://img.shields.io/github/contributors/777ahesh/Sangeet">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/777ahesh/Sangeet">
 </p>
 
 
@@ -58,6 +58,12 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 **The Main Objectives of this Repositry is to help People for their Contribution in Hacktoberfest 2022**
 
 ## <h1 align=center><img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/star-struck_1f929.png"/> About Project <img style="width:30px;height:30px;" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/relieved-face_1f60c.png"/></h1>
+
+<div align=center>
+<img src="https://user-images.githubusercontent.com/91421427/195971548-6e796321-629e-48f3-a3f0-f4c91334d9ae.png"/>
+</div>
+
+
 A Music Website made using html, css, bootstrap, js, jquery and mongodb.The site is just like spotify but with some different designs.
 
 <h3> Project Progress </h3>
@@ -74,9 +80,8 @@ A Music Website made using html, css, bootstrap, js, jquery and mongodb.The site
 
 
 
-
 <h2 align=center>
 <a href="https://github.com/777ahesh/Hacktoberfest/graphs/contributors">
- <img src="https://contrib.rocks/image?repo=777ahesh/Hacktoberfest" /> 
+ <img src="https://contrib.rocks/image?repo=777ahesh/Sangeet" /> 
 </a> 
 </h2>
