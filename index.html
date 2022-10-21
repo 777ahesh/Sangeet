@@ -19,70 +19,108 @@
 </head>
 
 <body>
-    <nav class="navbar bg-light">
+    <section id="navbar">
+        <nav class="navbar bg-light">
 
-        <div class="container-fluid">
-            <button class="navbar-toggler btn btn-outline-dark btn-menu text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <div class="container-fluid">
+                <button class="navbar-toggler btn btn-outline-dark btn-menu text-white" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="clearfix"></div>
 
-            <a class="logo navbar-brand ms-3 me-auto" href="#">
-                <img src="Asset/logo.png" alt="logo">
-                SANGEET
-            </a>
+                <a class="logo navbar-brand ms-3 me-auto" href="#">
+                    <img src="Asset/logo.png" alt="logo">
+                    SANGEET
+                </a>
 
-            
-            <form class="d-flex mx-auto" role="search">
-                <input class="form-control" type="search" placeholder="Search Artists, Songs, Albums" aria-label="Search">
-                <button class="btn btn-outline-dark ms-2" type="submit">Search</button>
-            </form>
-            
-            <div class="offcanvas offcanvas-end" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <a class="logo navbar-brand ms-3 me-auto" href="#">
-                        <img src="Asset/logo.png" alt="logo">
-                        SANGEET
-                    </a>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <hr>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-outline-dark">Login</button>
-                            <button type="button" class="btn btn-outline-dark ms-3">Sign Up</button>
-                        </li>
-                        <hr>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Radio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Podcast</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">My Music</a>
-                        </li>
-                        <hr>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Go Premium
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Go Add Free</a></li>
-                                <li><a class="dropdown-item" href="#">Get Sangeet+</a></li>
-                            </ul>
-                        </li>
-                        <hr>
-                    </ul>
+                <form class="d-flex mx-auto" role="search">
+                    <input class="form-control" type="search" placeholder="Search Artists, Songs, Albums"
+                        aria-label="Search">
+                    <button class="btn btn-outline-dark ms-2" type="submit">Search</button>
+                </form>
+
+                <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <a class="logo navbar-brand ms-3 me-auto" href="#">
+                            <img src="Asset/logo.png" alt="logo">
+                            SANGEET
+                        </a>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <hr>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-outline-dark">Login</button>
+                                <button type="button" class="btn btn-outline-dark ms-3">Sign Up</button>
+                            </li>
+                            <hr>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Radio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Podcast</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">My Music</a>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Go Premium
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Go Add Free</a></li>
+                                    <li><a class="dropdown-item" href="#">Get Sangeet+</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </nav>
+    </section>
+
+    <section id="carrrousel">
+        <div id="Controls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Asset/Music1.jpg" class="d-block w-50" alt="carousel img">
+                </div>
+                <div class="carousel-item">
+                    <img src="Asset/Music2.jpg" class="d-block w-50" alt="carousel img">
+                </div>
+                <div class="carousel-item">
+                    <img src="Asset/Music3.jpg" class="d-block w-50" alt="carousel img">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Controls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Controls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </nav>
+    </section>
+
+    <section id="Songs">
+        <div>
+            <img class="song" src="Asset/song1.png" alt="...">
+            <img class="song" src="Asset/song1.png" alt="...">
+            <img class="song" src="Asset/song1.png" alt="...">
+            <img class="song" src="Asset/song1.png" alt="...">
+            <img class="song" src="Asset/song1.png" alt="...">
+        </div>
+    </section>
+
+
 </body>
 
 </html>

@@ -27,3 +27,12 @@
     background-color: white!important;
     color: #fff!important;
 }
+.d-block{
+    margin: auto;
+    padding: 5%;
+}
+.song{
+    margin: 23px;
+    padding: 23px;
+}
+
