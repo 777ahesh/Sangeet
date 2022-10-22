@@ -39,7 +39,7 @@
 }
 .login__image{
   width:30%;
-  background-image: url("./Asset/login-background.svg");
+  background-image: url("../Asset/login-background.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
