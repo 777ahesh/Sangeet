@@ -1,46 +1,88 @@
 /* Add  Styles with proper comments about which feature you are working */
 
-.navbar-toggler{
+.navbar-toggler {
     margin-left: 1rem;
     font-size: 1rem;
 }
-.form-control{
+
+.form-control {
     width: 40rem;
 }
 
-.logo{
-    font-family:monospace;
+
+.logo {
+    font-family: monospace;
     font-weight: 700;
     word-spacing: 15px;
     letter-spacing: 5px;
 }
 
-.logo img{
-    width:60px;
+.logo img {
+    width: 60px;
 }
 
-.text-white{
-    color:#fff;
+.text-white {
+    color: #fff;
 }
 
-.btn-menu{
-    background-color: white!important;
-    color: #fff!important;
+.btn-menu {
+    background-color: white !important;
+    color: #fff !important;
 }
-.d-block{
+
+.d-block {
     margin: auto;
     padding: 5%;
 }
-.song{
-    margin: 23px;
-    padding: 23px;
+
+.song-category-title{
+	color: #b40000;
 }
-footer{
+.song-category-title::after{
+	content: '';
+	background-color: #780000;
+	background: linear-gradient(90deg, rgba(24,49,82,0) 0%, rgb(118, 4, 4) 44%, rgba(0,212,255,0) 100%);
+	height:1px;
+	display: block;
+	margin-top: 15px;
+	width: 50%;
+}
+
+.big-song-hover i{
+
+	left:50%;
+	top:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.big-song-hover:hover{
+	opacity: 1;
+}
+
+.big-song-hover{
+	position: absolute;
+	background-color: #000000bb;
+	left: 0px;
+	top:0px;
+	width:200px;
+	height: 200px;
+	opacity: 0;
+	transition: all .8s ease;
+}
+
+.big-song-img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+footer {
     background: #f1f1f1;
     padding: 90px 0;
-  }
-   
-  .footer-container{
+}
+
+.footer-container {
     max-width: 1300px;
     margin: auto;
     padding: 0 20px;
@@ -48,46 +90,46 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap-reverse;
-  }
-   
-  .logo{
+}
+
+.logo {
     width: 180px;
-  }
-   
-  .social-media{
+}
+
+.social-media {
     margin: 20px 0;
-  }
-   
-  .social-media a{
+}
+
+.social-media a {
     color: #001a21;
     margin-right: 25px;
     font-size: 22px;
     text-decoration: none;
     transition: .3s linear;
-  }
-   
-  .social-media a:hover{
+}
+
+.social-media a:hover {
     color: #fc5c65;
-  }
-   
-  .right-col h1{
+}
+
+.right-col h1 {
     font-size: 26px;
-  }
-   
-  .border{
+}
+
+.border {
     width: 100px;
     height: 4px;
     background: #fc5c65;
-  }
-   
-  .newsletter-form{
+}
+
+.newsletter-form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  }
-   
-  .txtb{
+}
+
+.txtb {
     flex: 1;
     padding: 18px 40px;
     font-size: 16px;
@@ -98,9 +140,9 @@ footer{
     outline: none;
     border-radius: 30px;
     min-width: 260px;
-  }
-   
-  .btn{
+}
+
+.btn {
     padding: 18px 40px;
     font-size: 16px;
     color: #f1f1f1;
@@ -112,29 +154,32 @@ footer{
     margin-left: 20px;
     cursor: pointer;
     transition: opacity .3s linear;
-  }
-   
-  .btn:hover{
+}
+
+.btn:hover {
     opacity: .7;
-  }
-  @media screen and (max-width:960px) {
-    .footer-container{
-      max-width: 600px;
+}
+
+@media screen and (max-width:960px) {
+    .footer-container {
+        max-width: 600px;
     }
-    .right-col{
-      width: 100%;
-      margin-bottom: 60px;
+
+    .right-col {
+        width: 100%;
+        margin-bottom: 60px;
     }
-   
-    .left-col{
-      width: 100%;
-      text-align: center;
+
+    .left-col {
+        width: 100%;
+        text-align: center;
     }
-  }
-  @media screen and (max-width:700px){
-    .btn{
-      margin: 0;
-      width: 100%;
-      margin-top: 20px;
-      }
+}
+
+@media screen and (max-width:700px) {
+    .btn {
+        margin: 0;
+        width: 100%;
+        margin-top: 20px;
     }
+}
