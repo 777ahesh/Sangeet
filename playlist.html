@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Audio Player</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <p>Demo Music From <a href="D:\New folder\New folder\Sangeet\vande">vande</a></p>
+    <audio src="" controls id="audioPlayer">
+        Sorry, your browser doesn't support html5!
+    </audio>
+    <ul id="playlist">
+        <li class="current-song"><a href="vande.mp3">Exit the Premises</a></li>
+        <li><a href="1.mp3">On My Way</a></li>
+        <li><a href="9.mp3">Dilbar</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="playlist.js"></script>
+    <script>
+        audioPlayer();
+    </script>
+</body>
+</html>
