@@ -5,7 +5,8 @@
     font-size: 1rem;
 }
 .form-control{
-    width: 40rem;
+    /* width: 40rem; */
+    width: 70%;
 }
 
 .logo{
@@ -101,7 +102,7 @@ footer{
   }
    
   .btn{
-    padding: 18px 40px;
+    /* padding: 18px 40px; */
     font-size: 16px;
     color: #f1f1f1;
     background: #fc5c65;
@@ -109,7 +110,7 @@ footer{
     font-weight: 700;
     outline: none;
     border-radius: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     transition: opacity .3s linear;
   }
@@ -117,7 +118,7 @@ footer{
   .btn:hover{
     opacity: .7;
   }
-  @media screen and (max-width:960px) {
+  /* @media screen and (max-width:960px) {
     .footer-container{
       max-width: 600px;
     }
@@ -137,4 +138,4 @@ footer{
       width: 100%;
       margin-top: 20px;
       }
-    }
+    } */
