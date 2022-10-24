@@ -1,130 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player Code</title>
-    <link rel="stylesheet" href="playlist.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <div class="player">
-        <div class="player__header">
-        <div class="player__img player__img--absolute slider">
-        <button class="player__button player__button--absolute--nw playlist">
-        <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
-        </button>
-        <button class="player__button player__button--absolute--center play">
-        <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
-        <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
-        </button>
-        <div class="slider__content">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/1.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/2.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/3.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/4.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/5.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/6.jpg" alt="cover">
-        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/7.jpg" alt="cover">
+  <div class="wrapper">
+    <div class="top-bar">
+      <i class="material-icons">expand_more</i>
+      <span>Now Playing</span>
+      <i class="material-icons">more_horiz</i>
+    </div>
+    <div class="img-area">
+      <img src="" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="song-timer">
+        <span class="current-time">0:00</span>
+        <span class="max-duration">0:00</span>
+      </div>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons play">play_arrow</i>
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class= "list material-icons">queue_music</i>
+          <span>Music list</span>
         </div>
-        </div>
-        <div class="player__controls">
-        <button class="player__button back">
-        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
-        </button>
-        <p class="player__context slider__context">
-        <strong class="slider__name"></strong>
-        <span class="player__title slider__title"></span>
-        </p>
-        <button class="player__button next">
-        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
-        </button>
-        <div class="progres">
-        <div class="progres__filled"></div>
-        </div>
-        </div>
-        </div>
-        <ul class="player__playlist list">
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/1.jpg" alt="cover">
-        <p class="player__context">
-        <b class="player__song-name">no time</b>
-        <span class="flex">
-        <span class="player__title">lastlings</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/1.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/2.jpg" alt="cover">
-        <p class="player__context">
-        <b class="player__song-name">blinding lights</b>
-        <span class="flex">
-        <span class="player__title">the weeknd</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/2.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/3.jpg" alt="cover">
-        <p class="player__context">
-        <b class="player__song-name">джованна</b>
-        <span class="flex">
-        <span class="player__title">enrasta</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/3.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/4.jpg" alt="cover">
-        <p class="player__context">
-        <b class="player__song-name">a man</b>
-        <span class="flex">
-        <span class="player__title">travis scott</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/4.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/5.jpg" alt="cover">
-        <p class="player__context ">
-        <b class="player__song-name">unforgetting</b>
-        <span class="flex">
-        <span class="player__title">zaxx</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/5.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/6.jpg" alt="cover">
-        <p class="player__context">
-        <b class="player__song-name">waharan</b>
-        <span class="flex">
-        <span class="player__title">Randall</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/6.mp3"></audio>
-        </li>
-        <li class="player__song">
-        <img class="player__img img" src="http://physical-authority.surge.sh/imgs/7.jpg" alt="cover">
-        <p class="player__context ">
-        <b class="player__song-name">starlight feat mr gabriel <span class="uppercase">4am</span> remix</b>
-        <span class="flex">
-        <span class="player__title">jai wolf</span>
-        <span class="player__song-time"></span>
-        </span>
-        </p>
-        <audio class="audio" src="http://physical-authority.surge.sh/music/7.mp3"></audio>
-        </li>
-        </ul>
-        </div>
-        <!-- Javascript -->
-        <script src="playlist.js"></script>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+        <!-- here li list are coming from js -->
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/music-list.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
