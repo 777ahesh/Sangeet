@@ -103,6 +103,10 @@
     height: 3.125rem;
     width: 100%;
 }
+.login__btn:hover{
+    background-color: #980101;
+    transition: all .8s ease;
+}
 
 .login__text {
     color: var(--secondary);
