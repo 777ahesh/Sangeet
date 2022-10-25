@@ -1,23 +1,39 @@
-function audioPlayer(){
-    var currentSong = 0;
-    $("#audioPlayer")[0].src = $("#playlist li a")[0];
-    $("#audioPlayer")[0].play();
-    $("#playlist li a").click(function(e){
-       e.preventDefault(); 
-       $("#audioPlayer")[0].src = this;
-       $("#audioPlayer")[0].play();
-       $("#playlist li").removeClass("current-song");
-        currentSong = $(this).parent().index();
-        $(this).parent().addClass("current-song");
-    });
-    
-    $("#audioPlayer")[0].addEventListener("ended", function(){
-       currentSong++;
-        if(currentSong == $("#playlist li a").length)
-            currentSong = 0;
-        $("#playlist li").removeClass("current-song");
-        $("#playlist li:eq("+currentSong+")").addClass("current-song");
-        $("#audioPlayer")[0].src = $("#playlist li a")[currentSong].href;
-        $("#audioPlayer")[0].play();
-    });
-}
+
+let allMusic = [
+    {
+      name: "Harley Bird - Home",
+      artist: "Jordan Schor",
+      img: "music-1",
+      src: "music-1"
+    },
+    {
+      name: "Ikson Anywhere – Ikson",
+      artist: "Audio Library",
+      img: "music-2",
+      src: "music-2"
+    },
+    {
+      name: "Beauz & Jvna - Crazy",
+      artist: "Beauz & Jvna",
+      img: "music-3",
+      src: "music-3"
+    },
+    {
+      name: "Hardwind - Want Me",
+      artist: "Mike Archangelo",
+      img: "music-4",
+      src: "music-4"
+    },
+    {
+      name: "Jim - Sun Goes Down",
+      artist: "Jim Yosef x Roy",
+      img: "music-5",
+      src: "music-5"
+    },
+    {
+      name: "Lost Sky - Vision NCS",
+      artist: "NCS Release",
+      img: "music-6",
+      src: "music-6"
+    },
+  ];
