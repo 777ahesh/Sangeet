@@ -5,8 +5,9 @@
     font-size: 1rem;
 }
 
-.form-control {
-    width: 40rem;
+.form-control{
+    /* width: 40rem; */
+    width: 70%;
 }
 
 
@@ -139,10 +140,11 @@ footer {
     outline: none;
     border-radius: 30px;
     min-width: 260px;
-}
 
-.btn {
-    padding: 18px 40px;
+  }
+   
+  .btn{
+    /* padding: 18px 40px; */
     font-size: 16px;
     color: #ffffff;
     background: #fc5c65;
@@ -150,7 +152,7 @@ footer {
     font-weight: 700;
     outline: none;
     border-radius: 30px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
 }
 
@@ -162,3 +164,5 @@ footer {
 .socialrow{
     text-align: center;
 }
+
+
