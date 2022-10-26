@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     min-height: 80vh;
-    background-color: white;
+    background-color: rgb(254, 174, 174);
     gap: 8rem;
 }
 

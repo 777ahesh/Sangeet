@@ -2,8 +2,12 @@
 
 .navbar-toggler {
     margin-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     font-size: 1rem;
 }
+
+
 
 .form-control{
     /* width: 40rem; */
@@ -27,7 +31,8 @@
 }
 
 .btn-menu {
-    background-color: white !important;
+    /* padding-top: 20px; */
+    background-color: rgb(253, 198, 198) !important;
     color: #fff !important;
 }
 
@@ -79,7 +84,7 @@
 }
 
 footer {
-    background: #f1f1f1;
+    background: #bd0404;
 }
 
 .footer-container {
@@ -109,7 +114,7 @@ footer {
 }
 
 .social-media a:hover {
-    color: #980101;
+    color: #fefefe;
 }
 
 .right-col h1 {
@@ -119,7 +124,7 @@ footer {
 .border {
     width: 50%;
     height: 4px;
-    background: #fc5c65;
+    background: #f9dddf;
 }
 
 .newsletter-form {
@@ -134,7 +139,7 @@ footer {
     padding: 18px 40px;
     font-size: 16px;
     color: #000000;
-    background: rgb(255, 255, 255);
+    background: rgb(246, 191, 191);
     border: none;
     font-weight: 700;
     outline: none;
@@ -147,7 +152,7 @@ footer {
     /* padding: 18px 40px; */
     font-size: 16px;
     color: #ffffff;
-    background: #fc5c65;
+    background: #fdbdc0;
     border: none;
     font-weight: 700;
     outline: none;
@@ -157,7 +162,7 @@ footer {
 }
 
 .btn:hover {
-    background-color: #980101;
+    background-color: #080808;
     transition: all .8s ease;
 }
 
@@ -165,4 +170,17 @@ footer {
     text-align: center;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 0%;
+    border: 1px solid black;
+}
 
+   .w-50 {
+    width: 80% !important;
+    height: 85vh;
+  }
