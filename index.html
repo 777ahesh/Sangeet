@@ -19,30 +19,24 @@
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://kit.fontawesome.com/c20afcd2b6.js" crossorigin="anonymous"></script>
 </head>
+<body style="background-color: antiquewhite;">
 
-<body>
 
     <section id="navbar">
-        <nav class="navbar bg-light">
-
-            <div class="container-fluid">
+        <nav style="background-color: rgb(185, 6, 6);"> 
+        <nav class="navbar background-color"> -->
+            
+                <div class="row">
+                    <div class="col-sm-3 col-lg-4 col-md-4 ">
+                        <div class="row">
+                            <div class="col-sm-6">
                 <button class="navbar-toggler btn btn-outline-dark btn-menu text-white" type="button"
                     data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    
                     <span class="navbar-toggler-icon"></span>
+                    
                 </button>
-                <div class="clearfix"></div>
-
-                <a class="logo navbar-brand ms-3 me-auto" href="#">
-                    <img src="Asset/logo.png" alt="logo">
-                    SANGEET
-                </a>
-
-                <form class="d-flex mx-auto" role="search">
-                    <input class="form-control" type="search" placeholder="Search Artists, Songs, Albums"
-                        aria-label="Search">
-                    <button class="btn btn-outline-dark ms-2" type="submit">Search</button>
-                </form>
-
+                
                 <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <a class="logo navbar-brand ms-3 me-auto" href="#">
@@ -54,7 +48,7 @@
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <hr>
                             <li class="nav-item">
-                                <a href="signup.html" class="btn btn-outline-dark">Login</a>
+                                <a href="login.html" class="btn btn-outline-dark">Login</a>
                                 <a href="signup.html" class="btn btn-outline-dark ms-3">Sign Up</a>
                             </li>
                             <hr>
@@ -86,12 +80,37 @@
                     </div>
                 </div>
             </div>
+                    
+            <div class="col-sm-6">
+                <a class="logo navbar-brand ms-3 me-auto " href="#">
+                    <img src="Asset/logo.png" alt="logo">
+                    SANGEET
+                </a>
+            </div>
+        </div>
+        </div>
+                    
+                    </div>
+                     <div class="col-sm-8 col-md-8 col-lg-8">
+                <form class="d-flex mx-auto " role="search">
+                
+                    <input class="form-control col-sm-9" type="search" placeholder="Search Artists, Songs, Albums"
+                        aria-label="Search">
+                        
+                     <button class="btn btn-outline-dark ms-2 col-sm-3 " type="submit">Search</button>
+        
+                
+                </form> 
+            </div>
+        </div>
         </nav>
     </section>
 
     <section id="carrrousel">
         <div id="Controls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carrousel bgdark">
+            <div class="carousel-inner" >
+            <div class="carousel-inner" background-image="images/music-2.jpg" >
                 <div class="carousel-item active">
                     <img src="Asset/Music1.jpg" class="d-block w-50" alt="carousel img">
                 </div>
@@ -103,7 +122,7 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#Controls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#Controls" data-bs-slide="next">
@@ -114,7 +133,7 @@
     </section>
 
     <section id="Songs">
-        <h5 class="song-category-title mx-5 pt-4"> Trending Songs <small class="float-end"><a href="">More Songs <i
+        <h5 class="song-category-title mx-5 pt-5"> Trending Songs <small class="float-end"><a href="">More Songs <i
                         class="bi bi-box-arrow-up-right"></i></a></small></h5>
 
         <section class="pt-2 p-4 mx-5 d-flex justify-content-center" style="flex-wrap: wrap;">
@@ -327,9 +346,49 @@
 
 </body>
 
-<footer>
-    <div class="footer-container">
-        <div class="left-col">
+<footer  class="p-4 pt-2">
+
+
+    <div class="row pt-5">
+
+        <div class="col-md-3 mb-4 col-sm-6">
+            <h5>Quick links</h5>
+            <ul class="nav flex-column">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Genres</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="#">Trendings</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 mb-4 col-sm-6">
+            <h5>Quick links</h5>
+            <ul class="nav flex-column">
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">New releases</a></li>
+                <li><a href="#">Old Songs</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-6 mb-4">
+            <h1>Our Newsletter</h1>
+            <div class="border"></div>
+            <p>Enter Your Email to get our news and updates.</p>
+            <form action="" class="newsletter-form">
+                <input type="text" class="txtb" placeholder="Enter Your Email">
+                <input type="submit" class="btn btn-outline-dark" value="Submit" >
+            </form>
+        </div>
+
+    </div>
+    
+    <div class="row justify-content-center socialrow">
+        <div class="col-4">
             <img src="Asset/logo.png" alt="logo" class="logo mx-3">
             <div class="social-media">
                 <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -340,17 +399,10 @@
             </div>
             <p class="rights-text">© 2021 Created By <b>Sangeet</b></p>
         </div>
-        
-        <div class="right-col">
-            <h1>Our Newsletter</h1>
-            <div class="border"></div>
-            <p>Enter Your Email to get our news and updates.</p>
-            <form action="" class="newsletter-form">
-                <input type="text" class="txtb" placeholder="Enter Your Email">
-                <input type="submit" class="btn" value="submit">
-            </form>
-        </div>
     </div>
+
+    
+    
 </footer>
 
 </html>

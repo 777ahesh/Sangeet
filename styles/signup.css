@@ -35,7 +35,7 @@
     display: flex;
     justify-content: center;
     min-height: 80vh;
-    background-color: white;
+    background-color: rgb(255, 198, 198);
     gap: 8rem;
 }
 
@@ -102,6 +102,10 @@
     border-radius: 8px;
     height: 3.125rem;
     width: 100%;
+}
+.login__btn:hover{
+    background-color: #980101;
+    transition: all .8s ease;
 }
 
 .login__text {
